@@ -43,7 +43,7 @@ jobs:
 
     steps:
       - name: Chceckout Code
-        uses: actions/chceckout@v4
+        uses: actions/checkout@v4
       
       - name: Deploy to production
         run: |
